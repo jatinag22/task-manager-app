@@ -1,0 +1,26 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js dotenv_config_path=./config/dev.env"
+  },
+  "author": "Jatin Agrawal",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.7",
+    "multer": "^1.4.2",
+    "sharp": "^0.24.0",
+    "validator": "^12.1.0"
+  }
+}
